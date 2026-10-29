@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate</title>
+    <link rel="stylesheet" href="exchangeRate.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <img src="img/money.png" alt="" srcset="" class="money-img">
+    <h1><i><i class="bi bi-currency-exchange"></i> Currency Converter</i></h1>
+    <div class="container">
+        <div class="currency">
+            <select name="" id="currency-one">
+                <option value="USD" selected>USD</option>
+                <option value="LAK">LAK</option>
+                <option value="THB">THB</option>
+                <option value="CNY">CNY</option>
+                <option value="VND">VND</option>
+                <option value="JPY">JPY</option>
+                <option value="KRW">KRW</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+            </select>
+            <input type="number" name="" id="amount-one" value="1">
+        </div>
+
+        <div class="swap-container">
+            <button class="btn" id="btn"><i class="bi bi-arrow-down-up"></i></button>
+            <div class="rate" id="rate"> currency rate: </i></div>
+        </div>
+        
+        <div class="currency">
+            <select name="" id="currency-two">
+                <option value="USD">USD</option>
+                <option value="LAK" selected>LAK</option>
+                <option value="THB">THB</option>
+                <option value="CNY">CNY</option>
+                <option value="VND">VND</option>
+                <option value="JPY">JPY</option>
+                <option value="KRW">KRW</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+            </select>
+            <input type="number" name="" id="amount-two" value="1">
+        </div>
+    </div>
+
+    <script src="exchangeRate.js"></script>
+</body>
+</html>
